@@ -97,3 +97,18 @@ span {
     left:0;
     right:0;
 }
+@media(max-width: 750px){
+    .cabecalho{
+        background-color: #DAA520;
+    }
+    .cabecalho__menu__link{
+        color:#000000;
+    }
+    
+    .apresentacao{
+        flex-direction: column-reverse;
+        align-items:center ;
+    }
+    .rodape{
+        position:static;
+    }
